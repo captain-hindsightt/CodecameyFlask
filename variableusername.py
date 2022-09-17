@@ -1,4 +1,3 @@
-from platform import python_branch
 from flask import Flask
 app = Flask(__name__)
 
