@@ -13,6 +13,11 @@ def home():
     <a href="https://www.codecademy.com">CODECADEMY</a>
     '''
 
+@app.route('/reporter')
+def reporter():
+    return '<h1>Reporter Bio</h1>'
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
 
