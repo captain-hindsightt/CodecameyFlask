@@ -1,4 +1,4 @@
-[codebyte language=python]
+
 from flask import Flask
 from helper import pets
 
@@ -37,4 +37,4 @@ def pet(pet_type, pet_id):
     <li>age: {pet['age']}</li>
   </ul>
   '''
-[/codebyte]
+
